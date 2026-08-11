@@ -1,0 +1,16 @@
+# Original independent code repositories are outside the workbench repository.
+/code/
+
+# Common local build and runtime output.
+*.log
+*.out
+*.aux
+
+# Local editor settings.
+/.vscode/
+
+/legacy
+
+# Local project workspace instances.
+/projects/workspaces/*
+!/projects/workspaces/.gitkeep
