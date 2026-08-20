@@ -7,7 +7,8 @@ rules/
 ├── AGENTS.md
 ├── MEMORY_PROTOCOL.md
 ├── CHANGE_PROTOCOL.md
-└── FRAMEWORK_EVOLUTION.md
+├── FRAMEWORK_EVOLUTION.md
+└── TEMPLATE_MAINTAINER_PROTOCOL.md
 ```
 
 ## 直接子项
@@ -26,3 +27,8 @@ rules/
 
 - **职责**：管理框架所处阶段，以及框架设计、调整和阶段更新时适用的演进约束。
 - **读取条件**：涉及框架自身的结构、职责、规则、工作流或模板机制设计与修改，或需要更新框架阶段时读取。
+
+### `TEMPLATE_MAINTAINER_PROTOCOL.md`
+
+- **职责**：管理共同维护者和 fork 用户从私人实践维护公开工作模板，并向原始公开模板贡献通用改进的协作流程。
+- **读取条件**：需要维护公开 `upstream`、提炼模板候选、提交或审核模板 PR 时读取。
